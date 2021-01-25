@@ -1,14 +1,14 @@
 
 # thermal-control
 
-Monitor HP server system temperature with hpasmcli and activate HVAC fan with a Nest thermostat when a threshold is reached
+Monitor HP server system temperature with hpasmcli and activate HVAC fan with a Nest thermostat when a threshold is reached.
 
 ## Get your Google OAuth2 access_token
 Follow the instructions from the link or watch the YouTube video below.
 
-https://developers.google.com/nest/device-access/get-started
+[https://developers.google.com/nest/device-access/get-started](https://developers.google.com/nest/device-access/get-started){:target="_blank" rel="noopener"}
 
-https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be
+[https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be](https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be){:target="_blank" rel="noopener"}
 
 ## Clone this Github repo
 ```
@@ -17,7 +17,7 @@ cd thermal-control
 ```
 
 ## Set your environment variables
-Example below sets the environment variables using "dotenv". "fan_duration" represents the time in seconds that the fan should run when the threshold is reached. "threshold" represents the sum of all system board temperatures. When the collective temperatures reach this value, the fan will be turned on for the specified duration.
+Example below sets the environment variables using [dotenv](https://www.npmjs.com/package/dotenv){:target="_blank" rel="noopener"}. "fan_duration" represents the time in seconds that the fan should run when the threshold is reached. "threshold" represents the sum of all system board temperatures. When the collective temperatures reach this value, the fan will be turned on for the specified duration.
 ```
 cat << EOF > .env
 access_token=<your access_token from instructions above>
