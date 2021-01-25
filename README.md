@@ -10,10 +10,11 @@ Follow the instructions from the link or watch the YouTube video below.
 
 [https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be](https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be)
 
-## Clone this Github repo
+## Clone the Github repo and install node dependencies
 ```
 git clone https://github.com/lspiehler/thermal-control.git
 cd thermal-control
+npm install
 ```
 
 ## Set your environment variables
