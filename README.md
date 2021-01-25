@@ -5,6 +5,7 @@ Monitor HP server system temperature with hpasmcli and activate HVAC fan with a 
 
 ## Get your Google OAuth2 access_token
 Follow the instructions from the link or watch the YouTube video below.
+
 https://developers.google.com/nest/device-access/get-started
 
 https://www.youtube.com/watch?t=278&v=_Wex2SLmEJ8&feature=youtu.be
