@@ -1,0 +1,34 @@
+{
+  "name": "thermal-control",
+  "version": "1.0.0",
+  "description": "Monitor HP server system temperature with hpasmcli and activate HVAC fan with a Nest thermostat when a threshold is reached",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lspiehler/thermal-control.git"
+  },
+  "keywords": [
+    "hpasmcli",
+    "hp",
+    "server",
+    "temperature",
+    "nest",
+    "thermostat",
+    "hvac",
+    "fan",
+    "cooling"
+  ],
+  "author": "Lyas Spiehler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lspiehler/thermal-control/issues"
+  },
+  "homepage": "https://github.com/lspiehler/thermal-control#readme"
+}
