@@ -1,6 +1,7 @@
 const { spawn } = require('child_process');
 const config = require('./config');
 const fancontrol = require('./lib/fanControl');
+//const util = require('util');
 
 var wait = false;
 
@@ -178,10 +179,10 @@ getAllTemperatures('SYSTEM_BD', 'fahrenheit', 'SUM', function(err, resp) {
         console.error(err);
     } else {
         console.log(resp);
+        monitorLoop();
     }
-})
+});
 
-monitorLoop();
 /*fancontrol.startFan(config.fan_duration, false, function(err, resp) {
     if(err) {
         console.log(err);
