@@ -173,6 +173,14 @@ function monitorLoop() {
     })
 }
 
+getAllTemperatures('SYSTEM_BD', 'fahrenheit', 'SUM', function(err, resp) {
+    if(err) {
+        console.error(err);
+    } else {
+        console.log(resp);
+    }
+})
+
 monitorLoop();
 /*fancontrol.startFan(config.fan_duration, false, function(err, resp) {
     if(err) {
