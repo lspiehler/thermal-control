@@ -155,6 +155,10 @@ function monitorLoop() {
                         }
                     });
                     setTimeout(function() {
+                        console.log(Date() + ' - Fan should go off now.');
+                        wait = false;
+                    }, parseInt(config.fan_duration) * 1000 );
+                    setTimeout(function() {
                         console.log(Date() + ' - Wait timer expired.');
                         wait = false;
                     }, parseInt(config.fan_duration) * 1000 * 2 );
